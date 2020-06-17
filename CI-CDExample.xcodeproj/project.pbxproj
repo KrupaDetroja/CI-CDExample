@@ -14,6 +14,10 @@
 		99E9FC29249A11CB00C2CE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E9FC28249A11CB00C2CE1B /* Assets.xcassets */; };
 		99E9FC2C249A11CB00C2CE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E9FC2A249A11CB00C2CE1B /* LaunchScreen.storyboard */; };
 		99E9FC37249A11CB00C2CE1B /* CI_CDExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FC36249A11CB00C2CE1B /* CI_CDExampleTests.swift */; };
+		99E9FC42249A11FC00C2CE1B /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FC41249A11FC00C2CE1B /* ConverterTests.swift */; };
+		99E9FC44249A123800C2CE1B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FC43249A123800C2CE1B /* Game.swift */; };
+		99E9FC46249A125B00C2CE1B /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FC45249A125B00C2CE1B /* Shuffle.swift */; };
+		99E9FC48249A127000C2CE1B /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FC47249A127000C2CE1B /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		99E9FC32249A11CB00C2CE1B /* CI-CDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CI-CDExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E9FC36249A11CB00C2CE1B /* CI_CDExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CI_CDExampleTests.swift; sourceTree = "<group>"; };
 		99E9FC38249A11CB00C2CE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E9FC41249A11FC00C2CE1B /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
+		99E9FC43249A123800C2CE1B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		99E9FC45249A125B00C2CE1B /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
+		99E9FC47249A127000C2CE1B /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,9 @@
 				99E9FC1F249A11C600C2CE1B /* AppDelegate.swift */,
 				99E9FC21249A11C600C2CE1B /* SceneDelegate.swift */,
 				99E9FC23249A11C600C2CE1B /* ViewController.swift */,
+				99E9FC43249A123800C2CE1B /* Game.swift */,
+				99E9FC45249A125B00C2CE1B /* Shuffle.swift */,
+				99E9FC47249A127000C2CE1B /* Converter.swift */,
 				99E9FC25249A11C600C2CE1B /* Main.storyboard */,
 				99E9FC28249A11CB00C2CE1B /* Assets.xcassets */,
 				99E9FC2A249A11CB00C2CE1B /* LaunchScreen.storyboard */,
@@ -94,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				99E9FC36249A11CB00C2CE1B /* CI_CDExampleTests.swift */,
+				99E9FC41249A11FC00C2CE1B /* ConverterTests.swift */,
 				99E9FC38249A11CB00C2CE1B /* Info.plist */,
 			);
 			path = "CI-CDExampleTests";
@@ -200,9 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E9FC46249A125B00C2CE1B /* Shuffle.swift in Sources */,
 				99E9FC24249A11C600C2CE1B /* ViewController.swift in Sources */,
 				99E9FC20249A11C600C2CE1B /* AppDelegate.swift in Sources */,
 				99E9FC22249A11C600C2CE1B /* SceneDelegate.swift in Sources */,
+				99E9FC48249A127000C2CE1B /* Converter.swift in Sources */,
+				99E9FC44249A123800C2CE1B /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E9FC42249A11FC00C2CE1B /* ConverterTests.swift in Sources */,
 				99E9FC37249A11CB00C2CE1B /* CI_CDExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
